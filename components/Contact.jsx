@@ -15,11 +15,11 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="m-5 pt-10 flex flex-col items-center justify-center mb-10 md:h-screen">
-      <h1 className="text-4xl md:text-6xl mb-6 text-yellow-500">Contact Us</h1>
+    <section id="contact" className="m-5 pt-10 flex flex-col items-center justify-center mb-10 md:h-screen xl:h-screen">
+      <h1 className="text-4xl md:text-6xl xl:text-8xl mb-6 text-yellow-500">Contact Us</h1>
       <form onSubmit={handleSubmit} className="w-full max-w-md  bg-gradient-to-r from-slate-400 to-slate-600 rounded-2xl p-5">
         <div className="mb-4">
-          <label htmlFor="name" className="block text-yellow-500 font-bold mb-2"> Name </label>
+          <label htmlFor="name" className="block text-yellow-500 font-bold xl:text-2xl mb-2"> Name </label>
           <input
             type="text"
             id="name"
@@ -30,7 +30,7 @@ function Contact() {
             required/>
         </div>
         <div className="mb-4">
-          <label htmlFor="email" className="block text-yellow-500 font-bold mb-2"> Email</label>
+          <label htmlFor="email" className="block text-yellow-500 font-bold xl:text-2xl mb-2"> Email</label>
           <input
             type="email"
             id="email"
@@ -41,7 +41,7 @@ function Contact() {
             required/>
         </div>
         <div className="mb-4">
-          <label htmlFor="message" className="block text-yellow-500 font-bold mb-2"> Message</label>
+          <label htmlFor="message" className="block text-yellow-500 font-bold xl:text-2xl mb-2"> Message</label>
           <textarea
             id="message"
             name="message"
@@ -53,7 +53,7 @@ function Contact() {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="bg-yellow-600 border-yellow-600 rounded-lg hover:scale-110 duration-200 text-white text-lg font-semibold py-3 px-6 "> Send Message </button>
+            className="bg-yellow-600 border-yellow-600 rounded-lg hover:scale-110 duration-200 text-white text-lg font-semibold py-3 px-6 xl:text-2xl"> Send Message </button>
         </div>
       </form>
     </section>

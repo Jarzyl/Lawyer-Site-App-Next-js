@@ -14,7 +14,7 @@ function Free() {
         <h1 className='text-2xl md:text-4xl font-bold'>
           Call Us Now for a Free Consultation
         </h1>
-        <a href='#contact'className='mt-8 inline-block py-4 px-8 text-lg font-semibold text-white  bg-yellow-600 border-yellow-600 rounded-lg hover:scale-110 duration-200'> Call Us Now</a>
+        <a href='#contact'className='mt-8 inline-block py-4 px-8 text-lg font-semibold text-white bg-yellow-600 border-yellow-600 rounded-lg hover:scale-110 duration-200 xl:text-2xl'> Call Us Now</a>
       </div>
     </div>
   );

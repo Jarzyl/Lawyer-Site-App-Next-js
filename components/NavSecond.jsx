@@ -10,31 +10,31 @@ const NavSecond = () => {
     setNav(!nav);
   };
   return (
-    <div className="w-full bg-gradient-to-r from-slate-400 to-slate-600 fixed top-0 left-0 right-0 z-10 h-10 ">
-      <div className="justify-between md:justify-evenly font-semibold flex px-4 mr-5 mx-auto lg:max-w-7xl md:items-center md:px-8 h-10">
+    <div className="w-full bg-gradient-to-r from-slate-400 to-slate-600 fixed top-0 left-0 right-0 z-10 h-10 xl:h-14">
+      <div className="justify-between md:justify-evenly xl:justify-evenly font-semibold flex px-4 mr-5 mx-auto lg:max-w-7xl md:items-center md:px-8 h-10">
       <a href='/#main'>
-        <h1 className='font-medium text-2xl hover:scale-110 duration-200 text-yellow-500'>Lawyer Site</h1></a>
+        <h1 className='font-bold text-2xl xl:text-3xl hover:scale-110 duration-200 text-yellow-500 xl:mt-3'>Lawyer Site</h1></a>
         <div>
-          <ul className='hidden md:flex text-yellow-500'>
-            <li className='ml-10 text-sm uppercase hover:scale-110 duration-200'>
+          <ul className='hidden md:flex text-sm uppercase xl:text-lg text-yellow-500 xl:mt-3'>
+            <li className='ml-10 hover:scale-110 duration-200'>
             <Link href='/#main'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:scale-110 duration-200'>
+            <li className='ml-10 hover:scale-110 duration-200'>
             <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:scale-110 duration-200'>
+            <li className='ml-10 hover:scale-110 duration-200'>
             <Link href='/#services'>Services</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:scale-110 duration-200'>
+            <li className='ml-10 hover:scale-110 duration-200'>
             <Link href='/#attorneys'>Attorneys</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:scale-110 duration-200'>
+            <li className='ml-10 hover:scale-110 duration-200'>
             <Link href='/#testimonial'>Testimonials</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:scale-110 duration-200'>
+            <li className='ml-10 hover:scale-110 duration-200'>
             <Link href='/#contact'>Contact</Link>
             </li>
-            <li className='ml-5 text-sm uppercase hover:scale-110 duration-200'>
+            <li className='ml-5 hover:scale-110 duration-200'>
             <p className='cursor-pointer'>+ 206 777 8888</p>
             </li>
           </ul>

@@ -12,9 +12,9 @@ import tax from '../public/services/tax.png'
 function Services() {
   return (
     <section id='services' className='w-full h-full flex items-center'>
-        <div className='justify-self-center text-center mt-5 pt-5 p-5'>
-            <h1 className='text-4xl mb-5 md:text-6xl md:mt-5 text-yellow-500'> Our Services </h1>
-            <p className='text-sm md:text-xl ml-10 mr-10 text-slate-500'>
+        <div className='justify-self-center text-center mt-5 pt-5 p-5 xl:mt-16'>
+            <h1 className='text-4xl mb-5 md:text-6xl xl:text-8xl md:mt-5 text-yellow-500'> Our Services </h1>
+            <p className='text-sm md:text-xl xl:text-2xl ml-10 mr-10 text-slate-500'>
             At [Your Law Firm], we provide comprehensive legal services tailored to your individual needs. Our experienced team of lawyers offers a wide range of expertise. We are committed to delivering personalized and effective legal solutions to our clients, no matter the complexity of the case. Contact us today to schedule a consultation and see how we can assist you.
             </p>
             <div className='text-center grid grid-cols-2 md:grid-cols-4 gap-5 mt-5 md:mr-10 md:ml-10'>

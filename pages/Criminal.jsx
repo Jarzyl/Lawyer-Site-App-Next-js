@@ -15,15 +15,15 @@ function Criminal() {
       <NavSecond/>
       <section id='criminal' className='w-full h-screen flex items-center justify-center bg-black opacity-70' >
       <div className='text-center text-white'>
-        <p className='text-2xl md:text-3xl font-bold'>Services</p>
-        <h1 className='text-4xl md:text-6xl font-bold'>Criminal Law</h1>
-        <Link href='/#contact' className='mt-8 inline-block py-4 px-8 text-lg font-semibold text-white border-2  bg-yellow-600 border-yellow-600 rounded-lg hover:scale-110 duration-200'>Get an appointment</Link>
+        <p className='text-2xl md:text-3xl xl:text-5xl font-bold'>Services</p>
+        <h1 className='text-4xl md:text-6xl xl:text-8xl font-bold'>Criminal Law</h1>
+        <Link href='/#contact' className='mt-8 inline-block py-4 px-8 text-lg xl:text-2xl font-semibold text-white border-2  bg-yellow-600 border-yellow-600 rounded-lg hover:scale-110 duration-200'>Get an appointment</Link>
       </div>
     </section>
     <div className='w-full md:h-full items-center mt-5 mb-16'>
-        <h1 className='text-4xl md:text-6xl text-center text-yellow-500 mb-3 mt-3 md:mt-16 md:mb-16'>Criminal Law</h1>
+        <h1 className='text-4xl md:text-6xl xl:text-8xl text-center text-yellow-500 mb-3 mt-3 md:mt-16 md:mb-16'>Criminal Law</h1>
         <div className='border-4 rounded-lg border-slate-400 mr-10 ml-10 md:ml-44 md:mr-44'>
-        <div className='text-sm md:text-xl text-slate-600 mr-5 ml-5'>
+        <div className='text-sm md:text-xl xl:text-2xl text-slate-600 mr-5 ml-5'>
         <p className='mt-3 border-solid border-2 rounded-lg p-3 '>Criminal law is the area of law that deals with crimes, criminal offenses, and their punishment. It is a branch of law that regulates the behavior of individuals, groups, and organizations to maintain public order and safety.</p>
         <p className='mt-3 border-solid border-2 rounded-lg p-3'>Our firm is dedicated to providing top-quality legal services in the area of criminal law. With our extensive experience and knowledge, we offer our clients the peace of mind that comes with knowing that their case is in good hands.</p>
 

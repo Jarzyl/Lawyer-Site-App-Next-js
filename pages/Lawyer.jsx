@@ -17,21 +17,21 @@ function Lawyer() {
       <NavSecond/>
       <section id='lawyer' className='w-full h-screen flex items-center justify-center bg-black opacity-70' >
       <div className='text-center text-white'>
-        <p className='text-2xl md:text-3xl font-bold'>Attorneys</p>
-        <h1 className='text-4xl md:text-6xl font-bold'>Benjamin</h1>
-        <Link href='/#contact' className='mt-8 inline-block py-4 px-8 text-lg font-semibold text-white border-2  bg-yellow-600 border-yellow-600 rounded-lg hover:scale-110 duration-200'>Get an appointment</Link>
+        <p className='text-2xl md:text-3xl xl:text-5xl font-bold'>Attorneys</p>
+        <h1 className='text-4xl md:text-6xl xl:text-8xl font-bold'>Benjamin</h1>
+        <Link href='/#contact' className='mt-8 inline-block py-4 px-8 text-lg xl:text-2xl font-semibold text-white border-2  bg-yellow-600 border-yellow-600 rounded-lg hover:scale-110 duration-200'>Get an appointment</Link>
       </div>
     </section>
     <div className='w-full md:h-full items-center text-center mt-5 mb-16'>
-        <h1 className='text-4xl md:text-6xl text-center text-yellow-500 mb-3 mt-3 '>Benjamin Button </h1>
+        <h1 className='text-4xl md:text-6xl xl:text-8xl text-center text-yellow-500 mb-3 mt-3 '>Benjamin Button </h1>
         <Image src={team2} width={200} className='mx-auto rounded-2xl mt-5 md:mt-8' alt='benjamin'/>
-        <p className='text-xl md:text-3xl text-center mt-5 mb-5 md:mt-8 md:mb-8 text-slate-600'>Specialist in Corporate Law</p>
+        <p className='text-xl md:text-3xl xl:text-5xl text-center mt-5 mb-5 md:mt-8 md:mb-8 text-slate-600'>Specialist in Corporate Law</p>
         <div className='border-4 rounded-lg border-slate-400 mr-10 ml-10 md:ml-44 md:mr-44'>
         <div className='text-sm md:text-xl text-slate-600 mr-5 ml-5'>
-        <p className='mt-5 mb-5 border-solid border-2 rounded-lg p-3 '>Benjamin Button is a highly skilled corporate lawyer with over a decade of experience advising clients on a wide range of legal matters. His expertise includes corporate governance, mergers and acquisitions, securities law, and regulatory compliance. Benjamin has successfully represented clients in complex litigation cases, arbitration proceedings, and negotiations with government agencies. His extensive knowledge of corporate law and his ability to navigate complex legal issues have helped his clients achieve favorable outcomes in a variety of legal disputes. Benjamin is known for his attention to detail, strategic thinking, and commitment to delivering results for his clients.</p>
+        <p className='mt-5 mb-5 border-solid border-2 rounded-lg xl:text-2xl p-3'>Benjamin Button is a highly skilled corporate lawyer with over a decade of experience advising clients on a wide range of legal matters. His expertise includes corporate governance, mergers and acquisitions, securities law, and regulatory compliance. Benjamin has successfully represented clients in complex litigation cases, arbitration proceedings, and negotiations with government agencies. His extensive knowledge of corporate law and his ability to navigate complex legal issues have helped his clients achieve favorable outcomes in a variety of legal disputes. Benjamin is known for his attention to detail, strategic thinking, and commitment to delivering results for his clients.</p>
         </div>
         </div>
-        <button className='justify-center mt-8 py-4 px-8 text-lg font-semibold text-white border-2  bg-yellow-600 border-yellow-600 rounded-lg hover:scale-110 duration-200'>Contact him + 209 0000 443</button>
+        <button className='justify-center mt-8 py-4 px-8 text-lg xl:text-2xl font-semibold text-white border-2 bg-yellow-600 border-yellow-600 rounded-lg hover:scale-110 duration-200'>Contact him + 209 0000 443</button>
       </div>
     </>
   );
